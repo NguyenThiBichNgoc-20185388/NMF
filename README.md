@@ -10,7 +10,8 @@ Một trong những thuật toán phổ biến nhất để giải bài toán NM
   Tải bộ dữ liệu:
                   ```bash
                   python hello.py
-  <br>Mô tả bộ dữ liệu:
+  
+  Mô tả bộ dữ liệu:
                   ```bash
                   python hello.py
     + *u.data*: chứa toàn bộ các đánh giá của 943 người dùng cho 1682 bộ phim.
