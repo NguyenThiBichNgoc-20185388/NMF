@@ -2,7 +2,9 @@
 ## Phát biểu bài toán NMF
 Cho ma trận dữ liệu $\mathbf{A} \in \mathbb{R}^{m \times n}$  với các phần tử không âm, tìm một phân rã sao cho:
 <div align="center">
-$$\mathbf{A} \approx \mathbf{UV}$$
+$$
+\mathbf{A} \approx \mathbf{UV}
+$$
 </div>
 trong đó $\mathbf{U}$ và $\mathbf{V}$ là các ma trận không âm có kích thước lần lượt là $m \times r$ và $r \times n$ với với $r$ là số nguyên dương thỏa mãn $r < \min(m, n)$.
 
