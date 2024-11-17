@@ -2,8 +2,8 @@
 ## Phát biểu bài toán NMF
 Cho ma trận dữ liệu $\mathbf{A} \in \mathbb{R}^{m \times n}$  với các phần tử không âm, tìm một phân rã sao cho:
 <div align="center">
-    
-**$$\mathbf{A} \approx \mathbf{UV}$$**
+
+$$\mathbf{A} \approx \mathbf{UV}$$
 
 </div>
 
