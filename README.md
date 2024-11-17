@@ -10,11 +10,11 @@ Một trong những thuật toán phổ biến nhất để giải bài toán NM
   ```markdown
   Tải bộ dữ liệu:
   ```bash
-  python a.py
-  
+  python a.py <br>
+  ```markdown
   Mô tả bộ dữ liệu:
-                  ```bash
-                  python b.py
+  ```bash
+  python a.py
     + *u.data*: chứa toàn bộ các đánh giá của 943 người dùng cho 1682 bộ phim.
     + *u.item*: chứa thông tin về 1682 bộ phim.
     + *u.user*: chứa thông tin về 943 người dùng.
