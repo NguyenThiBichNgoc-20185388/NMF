@@ -1,4 +1,12 @@
 # PHƯƠNG PHÁP NHÂN TỬ HÓA MA TRẬN KHÔNG ÂM (NMF) VÀ ỨNG DỤNG
+## Phát biểu bài toán NMF
+Cho ma trận dữ liệu $\mathbf{A} \in \mathbb{R}^{m \times n}$  với các phần tử không âm, tìm một phân rã sao cho: 
+\begin{align}
+   \mathbf{A} \approx \mathbf{UV} \label{point:1.1} \tag{1.1}
+\end{align}
+trong đó $\mathbf{U}$ và $\mathbf{V}$ là các ma trận không âm có kích thước lần lượt là $m \times r$ và $r \times n$ với với $r$ là số nguyên dương thỏa mãn $r < \min(m, n)$.
+
+## Thuật toán
 Một trong những thuật toán phổ biến nhất để giải bài toán NMF là quy tắc cập nhật nhân ([Multiplicative Update Rules](https://www.researchgate.net/publication/2538030_Algorithms_for_Non-negative_Matrix_Factorization) - MUR) được đưa ra bởi Lee và Seung vào năm 1999 và 2001.
 
 ![](Anh/ThuatToan.jpg)
