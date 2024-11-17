@@ -14,6 +14,6 @@ Một trong những thuật toán phổ biến nhất để giải bài toán NM
     + Xây dựng mô hình NMF dựa trên Thuật toán MUR: tách ma trận **A** thành 2 ma trận **U** và **V** có kích thước lần lượt là 943xr và rx1682 với *r* là số lượng thành phần tiềm ẩn (đặc trưng)
     + Đánh giá mô hình tìm *r* tối ưu.
     + Tìm thể loại yêu thích của người dùng *user_ID* dựa trên điểm đánh giá các bộ phim mà người đó đã xem.
-    + Sử dụng mô hình NMF để dự đoán điểm đánh giá cho các bộ phim mà người dùng *user_ID* chưa xem: các giá trị trong ma trận **UV** là các điểm đánh giá dự đoán cho các bộ phim mà người dùng đó chưa đánh giá.
-  => Đưa ra danh sách 10 bộ phim mà người dùng có khả năng thích dựa trên các điểm đánh giá đã được dự đoán.
+    + Sử dụng mô hình NMF để dự đoán điểm đánh giá cho các bộ phim mà người dùng *user_ID* chưa xem: các giá trị trong ma trận **UV** là các điểm đánh giá dự đoán cho các bộ phim mà người dùng đó chưa đánh giá. <br>
+  => Đưa ra danh sách 10 bộ phim mà người dùng có khả năng thích dựa trên các điểm đánh giá đã được dự đoán. <br>
      Nhận xét: các bộ phim gợi ý có phù hợp với thể loại yêu thích của người đó hay không? 
