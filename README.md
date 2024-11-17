@@ -37,7 +37,7 @@ $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\rig
     + *u.user*: chứa thông tin về 943 người dùng.
       
 - Gợi ý phim cho người dùng theo *user_ID*:
-    + Xây dựng ma trận đánh giá $\mathbf{A}$: hàng đại diện cho người dùng, cột đại diện cho phim và các giá trị là điểm đánh giá (1-5 hoặc 0 nếu người dùng không đánh giá hay chưa xem phim) => ma trận $\mathbf{A}$ có kích thước 943x1682.
+    + Xây dựng ma trận đánh giá $\mathbf{A}$: hàng đại diện cho người dùng, cột đại diện cho phim và các giá trị là điểm đánh giá (1-5 hoặc 0 nếu người dùng không đánh giá hay chưa xem phim) => ma trận $\mathbf{A}$ có kích thước $943 \times 1682$.
     + Xây dựng mô hình NMF dựa trên Thuật toán MUR: tách ma trận $\mathbf{A}$ thành 2 ma trận $\mathbf{U}$ và $\mathbf{V}$ có kích thước lần lượt là $943 \times r$ và $r \times 1682$ với *r* là số lượng thành phần tiềm ẩn (đặc trưng) của các bộ phim.
     + Đánh giá mô hình tìm *r* tối ưu.
     + Tìm thể loại yêu thích của người dùng *user_ID* dựa trên điểm đánh giá các bộ phim mà người đó đã xem.
