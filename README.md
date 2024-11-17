@@ -10,7 +10,8 @@ Một trong những thuật toán phổ biến nhất để giải bài toán NM
   ```markdown
   Tải bộ dữ liệu:
   ```bash
-  python a.py <br>
+  python a.py
+  
   ```markdown
   Mô tả bộ dữ liệu:
   ```bash
