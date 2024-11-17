@@ -1,4 +1,5 @@
 # PHƯƠNG PHÁP NHÂN TỬ HÓA MA TRẬN KHÔNG ÂM (NMF) VÀ ỨNG DỤNG
+
 ## Phát biểu bài toán NMF
 Cho ma trận dữ liệu $\mathbf{A} \in \mathbb{R}^{m \times n}$  với các phần tử không âm, tìm một phân rã sao cho:
 <div align="center">
@@ -9,19 +10,25 @@ $$\mathbf{A} \approx \mathbf{UV}$$
 
 trong đó $\mathbf{U}$ và $\mathbf{V}$ là các ma trận không âm có kích thước lần lượt là $m \times r$ và $r \times n$ với với $r$ là số nguyên dương thỏa mãn $r < \min(m, n)$.
 
+
 ## Thuật toán
 Một trong những thuật toán phổ biến nhất để giải bài toán NMF là quy tắc cập nhật nhân ([Multiplicative Update Rules](https://www.researchgate.net/publication/2538030_Algorithms_for_Non-negative_Matrix_Factorization) - MUR) được đưa ra bởi Lee và Seung vào năm 1999 và 2001:
+
 **Bước 1.** Khởi tạo hai ma trận không âm ban đầu là $\mathbf{U}^{(0)}$ và $\mathbf{V}^{(0)}$. Gán $k := 0$ 
 
-**Bước 2.**
-
-- Cập nhật $\mathbf{U}, \mathbf{V}$ bằng công thức: 
+**Bước 2.** <br>
+- Cập nhật $\mathbf{U}, \mathbf{V}$ bằng công thức:
+<div align="center">
+    
 $$\mathbf{U}^{(k+1)} = \mathbf{U}^{(k)} \circ \frac{\mathbf{A} \left(\mathbf{V}^{(k)}\right)^\top}{\mathbf{U}^{(k)} \mathbf{V}^{(k)} \left(\mathbf{V}^{(k)}\right)^\top}$$
 $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\right)^\top \mathbf{A}}{ \left(\mathbf{U}^{(k+1)}\right)^\top \mathbf{U}^{(k+1)} \mathbf{V}^{(k)}}$$
+
+</div>
 
 - Gán $k := k + 1$ 
 
 **Bước 3.** Lặp lại Bước 2 cho đến khi đạt điều kiện dừng.
+
 
 ## Ứng dụng của NMF trên bộ cơ sở dữ liệu [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/) 
 - Bộ cơ sở dữ liệu này bao gồm 100000 lượt đánh giá (1-5) từ 943 người dùng cho 1682 bộ phim:
