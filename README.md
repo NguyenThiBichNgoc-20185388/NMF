@@ -6,16 +6,7 @@ Một trong những thuật toán phổ biến nhất để giải bài toán NM
 
 
 ## Ứng dụng của NMF trên bộ cơ sở dữ liệu [MovieLens 100K](https://grouplens.org/datasets/movielens/100k/) 
-- Bộ cơ sở dữ liệu này bao gồm 100000 lượt đánh giá (1-5) từ 943 người dùng cho 1682 bộ phim:<br>
-  ```markdown
-  Tải bộ dữ liệu:
-  ```bash
-  python a.py
-  
-  ```markdown
-  Mô tả bộ dữ liệu:
-  ```bash
-  python a.py
+- Bộ cơ sở dữ liệu này bao gồm 100000 lượt đánh giá (1-5) từ 943 người dùng cho 1682 bộ phim:
     + *u.data*: chứa toàn bộ các đánh giá của 943 người dùng cho 1682 bộ phim.
     + *u.item*: chứa thông tin về 1682 bộ phim.
     + *u.user*: chứa thông tin về 943 người dùng.
