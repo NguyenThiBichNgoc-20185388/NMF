@@ -51,3 +51,4 @@ $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\rig
 
 Người dùng *user_ID = 406* có sở thích rõ ràng đối với thể loại phim kinh dị (Horror) và tâm lý (Drama), thể hiện qua số điểm cao và nhiều phim đã xem. Họ cũng có sự yêu thích nhất định với phim chiến tranh (War) và trẻ em (Children). Việc không có điểm đánh giá cho các thể loại như hành động (Action), phiêu lưu (Adventure) và hoạt hình (Animation) có thể cho thấy họ không quan tâm tới những thể loại này hoặc chưa có cơ hội xem.
 
+![](Anh/GoiYPhim_406.png)
