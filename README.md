@@ -8,7 +8,7 @@ $$\mathbf{A} \approx \mathbf{UV}$$
 
 </div>
 
-trong đó $\mathbf{U}$ và $\mathbf{V}$ là các ma trận không âm có kích thước lần lượt là $m \times r$ và $r \times n$ với với $r$ là số nguyên dương thỏa mãn $r < \min(m, n)$.
+trong đó $\mathbf{U}$ và $\mathbf{V}$ là các ma trận không âm có kích thước lần lượt là $m \times r$ và $r \times n$ với $r$ là số nguyên dương thỏa mãn $r < \min(m, n)$.
 
 
 ## Thuật toán
