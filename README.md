@@ -52,9 +52,7 @@ $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\rig
 
 </div>
     
-Người dùng *user_ID = 406* có sở thích rõ ràng đối với thể loại phim kinh dị (Horror) và tâm lý (Drama), thể hiện qua số điểm cao và nhiều phim đã xem. Họ cũng có sự yêu thích nhất định với phim chiến tranh (War) và trẻ em (Children). Việc không có điểm đánh giá cho các thể loại như hành động (Action), phiêu lưu (Adventure) và hoạt hình (Animation) có thể cho thấy họ không quan tâm tới những thể loại này hoặc chưa có cơ hội xem.
-
-Nhìn chung, sở thích của người này thiên về những câu chuyện sâu sắc, cảm xúc hoặc hồi hộp hơn là những hành động nhanh và hài hước.
+Người dùng *user_ID = 406* có sở thích rõ ràng đối với thể loại phim kinh dị (Horror) và tâm lý (Drama), thể hiện qua số điểm cao và nhiều phim đã xem. Họ cũng có sự yêu thích nhất định với phim chiến tranh (War) và trẻ em (Children). Việc không có điểm đánh giá cho các thể loại như hành động (Action), phiêu lưu (Adventure) và hoạt hình (Animation) có thể cho thấy họ không quan tâm tới những thể loại này hoặc chưa có cơ hội xem. Nhìn chung, sở thích của người này thiên về những câu chuyện sâu sắc, cảm xúc hoặc hồi hộp hơn là những hành động nhanh và hài hước.
 
 <div align="center">
     
@@ -62,3 +60,4 @@ Nhìn chung, sở thích của người này thiên về những câu chuyện s
 
 </div>
 
+Các bộ phim gợi ý phần lớn đều phù hợp với sở thích của người dùng này, đặc biệt là các phim thuộc thể loại kinh dị và tâm lý. Những bộ phim như **The Shining**, **Rear Window**, và **The Maltese Falcon** chắc chắn sẽ thu hút sự quan tâm của họ, trong khi các lựa chọn khác như **E.T.** và **Raging Bull** cũng có thể mang lại trải nghiệm thú vị. Mặc dù thể loại hài hước không phải là sở thích chính của người dùng nhưng vẫn có thể mang lại sự giải trí.
