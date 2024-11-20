@@ -56,7 +56,7 @@ Người dùng *user_ID = 406* có sở thích rõ ràng đối với thể lo�
 
 <div align="center">
     
-![](Anh/GoiYPhim_406.png)
+![](Anh/PhimGoiY_406.png)
 
 </div>
 
