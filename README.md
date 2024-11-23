@@ -49,6 +49,7 @@ $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\rig
 <div align="center">
     
 ![](Anh/Phim_406.png)
+
 ![](Anh/TheLoaiThich_406.png)
 
 </div>
