@@ -48,9 +48,9 @@ $$\mathbf{V}^{(k+1)} = \mathbf{V}^{(k)} \circ \frac{\left(\mathbf{U}^{(k+1)}\rig
 ## Kết quả
 <div align="center">
     
-![](Anh/PhimDaXem_406.png)
+![](Anh/ID_406/PhimDaXem_406.png)
 
-![](Anh/TheLoaiThich_406.png)
+![](Anh/ID_406/TheLoaiThich_406.png)
 
 </div>
     
@@ -58,7 +58,7 @@ Người dùng ***user_ID = 406*** có sở thích rõ ràng đối với thể 
 
 <div align="center">
     
-![](Anh/PhimGoiY_406.png)
+![](Anh/ID_406/PhimGoiY_406.png)
 
 </div>
 
