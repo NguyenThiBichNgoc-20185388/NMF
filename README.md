@@ -63,3 +63,13 @@ Người dùng ***user_ID = 406*** có sở thích rõ ràng đối với thể 
 </div>
 
 Các bộ phim gợi ý phần lớn đều phù hợp với sở thích của người dùng này, đặc biệt là các phim thuộc thể loại kinh dị và tâm lý. Những bộ phim như **The Shining (1980)**, **Rear Window (1954)**, và **The Maltese Falcon (1941)** chắc chắn sẽ thu hút sự quan tâm của họ. Các lựa chọn khác như **E.T. the Extra-Terrestrial (1982)** và **Raging Bull (1980)** cũng có thể mang lại trải nghiệm thú vị. Mặc dù một số bộ phim có yếu tố hài hước, không phải là sở thích chính của người dùng nhưng chúng vẫn có thể mang đến sự giải trí cho người xem.
+
+
+## So sánh NMF với SVD
+<div align="center">
+    
+![](Anh/RMSE_NMF&SVD.png)
+
+</div>
+
+NMF có lợi thế rõ ràng hơn SVD trong việc duy trì độ chính xác khi số lượng thành phần $r$ tăng, đặc biệt khi làm việc với dữ liệu không âm. Cả hai mô hình đều có thể đạt được hiệu suất tốt trong khoảng RMSE nhất định, nhưng NMF nổi bật hơn trong khả năng giải thích và phát hiện cấu trúc dữ liệu.
