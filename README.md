@@ -72,4 +72,4 @@ Các bộ phim gợi ý phần lớn đều phù hợp với sở thích của n
 
 </div>
 
-NMF có lợi thế rõ ràng hơn SVD trong việc duy trì độ chính xác khi số lượng thành phần $r$ tăng, đặc biệt khi làm việc với dữ liệu không âm. Cả hai mô hình đều có thể đạt được hiệu suất tốt trong khoảng RMSE nhất định, nhưng NMF nổi bật hơn trong khả năng giải thích và phát hiện cấu trúc dữ liệu.
+NMF có lợi thế rõ ràng hơn SVD trong việc duy trì độ chính xác khi số lượng thành phần $r$ tăng, đặc biệt khi làm việc với dữ liệu không âm. Cả hai mô hình đều có thể đạt được hiệu suất tốt nhất khi r nằm trong khoảng từ 10 đến 20, nhưng NMF nổi bật hơn trong khả năng giải thích và phát hiện cấu trúc dữ liệu.
