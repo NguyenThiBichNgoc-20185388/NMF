@@ -68,7 +68,7 @@ Các bộ phim gợi ý phần lớn đều phù hợp với sở thích của n
 ## So sánh NMF với SVD
 <div align="center">
     
-![](Anh/RMSE_NMF&SVD.png)
+![](RMSE/RMSE_NMF&SVD.png)
 
 </div>
 
